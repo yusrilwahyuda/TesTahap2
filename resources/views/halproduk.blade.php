@@ -46,7 +46,7 @@
                                 <td>{{$i}}</td>
                                 <td>{{$item->nama}}</td>
                                 <td>{{$item->kategori}}</td>
-                                <td>{{$item->harga}}</td>
+                                <td>Rp{{$item->harga}}</td>
                                 <td>{{$item->warna}}</td>
                                 <td>{{$item->ukuran}}</td>
                                 <td><img src="{{ url('gambar_produk') }}/{{ $item->gambar }} "width="50" height="50"></td>
